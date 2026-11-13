@@ -1,6 +1,6 @@
 # Release verification
 
-Verified on **8 November 2026 (Hong Kong time)** against the supplied IDAT7220 STEM Game assessment details and STEM e-learning Lesson rubric. This records observed requirements and technical checks; it is not a predicted grade.
+Updated on **13 November 2026 (Hong Kong time)** against the supplied IDAT7220 STEM Game assessment details, STEM e-learning Lesson rubric and classroom criteria. This records observed requirements and technical checks; it is not a predicted grade.
 
 ## Requirement coverage
 
@@ -13,7 +13,8 @@ Verified on **8 November 2026 (Hong Kong time)** against the supplied IDAT7220 S
 | A coherent story with consequential choices | A watermark mystery across three cities and four chapters; persistent engineering choices, stakeholder priorities, a shared budget and five engineering endings. |
 | Integrated learning and feedback | Controlled comparison, camera evidence, process explanations, four questions with corrective feedback, and a data-based case statement. |
 | Hands-on and collaborative problem solving | Interactive rainfall test, facility placement, simulation/retesting and recorded designer/checker/agreement contributions; explicit solo self-review alternative. |
-| Purposeful media and consistent design | 18 Recraft illustrations, SVG flow overlays and charts, optional synthesized rain, consistent fixed 16:9 screens and in-scene navigation. |
+| Purposeful media and consistent design | 18 Recraft illustrations, SVG flow overlays and charts, a 42-second captioned teaching video, optional synthesized rain and distinct answer sounds; fixed 16:9 screens and in-scene navigation. |
+| Four learning types visible to the reviewer | README maps facts, concepts, procedures and problem-solving to actual activities and saved evidence in four rows. |
 | Public game link | The repository's Play link is the GitHub Pages entry point. No learner login is required. |
 
 ## Checks completed
@@ -26,7 +27,9 @@ Verified on **8 November 2026 (Hong Kong time)** against the supplied IDAT7220 S
 - Browser checks found no clipping in the tested design, evidence, interview, role-review, high-river-test and completion screens. Evidence descriptions have 24 stage pixels of clearance. The frame remains 16:9 with no vertical page scrolling.
 - All five writing fields retain readable light backgrounds and dark text when hovered, focused and edited. The previous dark-background conflict was corrected.
 - Rain can be switched on and off. The tested full walkthrough produced no captured browser errors.
-- The release HTML embeds all 18 images and the runtime. It uses no external script sources, analytics or game-data service. The included source archive contains the build script, editable source, tests, media and runtime licence.
+- The new video loaded as a 42-second, 960 × 540 H.264/AAC MP4 in the browser, played on request and returned to the original screen. Its built-in captions, learning notes and controls fit the fixed frame. It uses project illustrations and generated ambience, with no narration.
+- Separate correct and incorrect WAV files were verified. Controller tests cover correct/incorrect process explanations, knowledge responses and flow-path choices, independent SFX muting, video return and checkpoint preservation. Open hypotheses and engineering choices remain ungraded by sound.
+- The release HTML embeds all 18 images, video, answer sounds and the runtime. It uses no external script sources, analytics or game-data service. The included source archive contains the build script, editable source, tests, media and runtime licence. The video is also provided as a standalone MP4.
 
 ## Interpretation limits
 

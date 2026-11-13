@@ -6,7 +6,7 @@
 
 An English STEM investigation and engineering simulation for lower-secondary learners and above, created for **IDAT7220**. The primary STEM branch is **Environmental / Civil Engineering**, integrating science, technology and mathematics. It uses Twine / SugarCube, illustrated evidence, interactive experiments and a simplified stormwater model.
 
-No account or installation is required to play. Use a desktop or laptop in landscape orientation. The game keeps a fixed **16:9** frame and advances through screens rather than a scrolling webpage. Rain audio is optional and starts off.
+No account or installation is required to play. Use a desktop or laptop in landscape orientation. The game keeps a fixed **16:9** frame and advances through screens rather than a scrolling webpage. Rain audio is optional and starts off. Short correct/incorrect answer sounds have a separate **SFX on/off** control.
 
 ![Stormfront game preview](preview.jpg)
 
@@ -20,7 +20,7 @@ The central question is: **why can a locally improved system still fail downstre
 
 | Part | Place and challenge | What the player does |
 | --- | --- | --- |
-| Prologue | Huiwan Old Street: two conflicting watermarks | Record an initial hypothesis without penalty. |
+| Prologue | Huiwan Old Street: two conflicting watermarks | Watch an optional captioned video about the role of urban drainage, then record an initial hypothesis without penalty. |
 | Chapter 1 | **Baishi — flat ground and changing surfaces** | Compare grass and asphalt under equal rainfall, explain runoff and choose a response. |
 | Chapter 2 | **Qingling — hillside routes and delayed arrival** | Inspect elevation, tracer or camera evidence; choose a facility and put it on the actual flow path. |
 | Chapter 3 | **Huiwan fringe — tributaries meet** | Hear community priorities, choose a shared-budget proposal, then record a designer's reason, an evidence checker's concern and a joint response. |
@@ -38,7 +38,7 @@ This reviewer route demonstrates all four chapters and reaches **Both lights ret
 
 ### 1. Start and investigate Baishi
 
-1. Open **About this course** if desired, then **Return to game** and **Accept the case**. For an existing save, use **Start a new case** only if you want to replace that browser's progress.
+1. Optionally select **Watch: Why cities need drainage** on the title screen for a 42-second teaching video, then **Return to the investigation**. Open **About this course** if desired, then **Return to game** and **Accept the case**. For an existing save, use **Start a new case** only if you want to replace that browser's progress.
 2. Choose any first hypothesis, then **Travel to Baishi**.
 3. Open **Grass became a car park**, return with **Continue investigating**, then choose **Run a controlled experiment**.
 4. Leave rainfall at **30 mm**, click **Run the experiment**, then **Explain the result**. Select **“Different surfaces change the proportion that becomes runoff.”**
@@ -123,7 +123,16 @@ By the end, learners should be able to:
 | Elaborate | Transfer principles to connected cities and negotiate a shared-budget design through two perspectives. |
 | Evaluate | Retest at high river level, complete a transfer check and justify a recommendation with actual simulation evidence. |
 
-Factual learning is supported by records and quantities; conceptual learning by runoff and outlet comparisons; procedural learning by controlled testing and retesting; problem-solving by placement, budgeting and collaborative review.
+### Learning type — actual activity — evidence checked
+
+| Learning type | Actual activity and strategy | Evidence checked |
+| --- | --- | --- |
+| **Facts** | Retrieve rainfall, area, timestamps, elevations and outlet limits from the field journal; attach a concrete value to the recommendation. | Recorded experiment settings, the selected actual test datum and the numeric evidence in the exported case report. |
+| **Concepts** | Compare equal-rainfall surfaces, explain delayed runoff and compare outlet conditions; use feedback to revise a causal explanation. | Supported surface/travel-time explanations, four knowledge responses with corrective feedback, and the learner's written reasoning. |
+| **Procedures** | Hold comparison conditions constant, trace connected routes, place a facility, run a test and revise before retesting. | Recorded settings and facility location, current-condition simulation and round-by-round water-balance data. |
+| **Problem-solving** | Choose a catchment-wide response within the shared budget; use designer/checker perspectives to weigh storage, access and community costs. | Saved proposal, evidence challenge and agreed response; final engineering outcome and a data-based statement with follow-up responsibility. |
+
+These records support teacher or peer review. Text-entry length checks confirm completeness, not scientific quality.
 
 ### Assessment and facilitation
 
@@ -131,9 +140,18 @@ The game supports shared-device pair work and explicitly labelled solo self-revi
 
 Knowledge feedback supports revision. Written-entry checks verify **completeness**, not scientific quality; the latter remains for teacher or peer review. A failed engineering drill can still produce a complete, well-supported learning record. Changing the design or test requires relevant records to be confirmed again.
 
+## Teaching video and answer feedback
+
+**Why cities need drainage** is an original **42-second, 16:9 illustrated teaching video**, available from the title screen and prologue. It explains collecting and conveying runoff, slowing and storing water, protecting city life and recognizing system limits. It uses continuous animation, built-in English captions and a quiet synthesized ambient track. It is labelled as a teaching animation and uses the project's Recraft illustrations; it is not real flood footage.
+
+The video plays only when the learner chooses. Its question—what could change between two storms?—connects the overview to the opening hypothesis. Rain becomes quieter during playback and returns afterward. [Open the MP4](https://matcharobot.github.io/stormfront-stem-game/drainage-cities.mp4).
+
+Correct responses play a short rising tone; incorrect responses play a quieter low descending tone. They accompany the two process-explanation questions, four knowledge questions and system-path selection. Written feedback remains visible, and **SFX** can be muted independently of **Rain**. Initial hypotheses, engineering trade-offs and open-ended writing are not given right/wrong tones.
+
 ## Files and technology
 
-- **[index.html](index.html)** — self-contained playable game, including all 18 illustrations and the runtime; also works when downloaded and opened locally.
+- **[index.html](index.html)** — self-contained playable game, including all 18 illustrations, the teaching video, answer sounds and the runtime; also works when downloaded and opened locally.
+- **[drainage-cities.mp4](https://matcharobot.github.io/stormfront-stem-game/drainage-cities.mp4)** — the teaching video as a separate playable file.
 - **[Stormfront.twee](Stormfront.twee)** — full editable Twine/Twee story source, script and styles.
 - **[SOURCE.zip](SOURCE.zip)** — modular source, build script, tests, media and runtime licence. Extract and read `DEVELOPMENT.md` to rebuild or serve `dist/` locally.
 - **[VALIDATION.md](VALIDATION.md)** — release checks and model boundaries.
@@ -143,8 +161,8 @@ The game uses SugarCube state and passage events, saved choices, interactive for
 
 ## Credits and boundaries
 
-Story, activities and teaching model were tailored to this project with AI assistance. **All 18 illustrations were generated and edited with Recraft**. Rain audio is synthesized in the browser. The camera image is an illustration with teaching overlays, not measured flood footage. SugarCube is by Thomas Michael Edwards; its licence is retained.
+Story, activities and teaching model were tailored to this project with AI assistance. **All 18 illustrations were generated and edited with Recraft**. Rain audio is synthesized in the browser; the video ambience and answer tones are generated for the project. The camera image is an illustration with teaching overlays, not measured flood footage. SugarCube is by Thomas Michael Edwards; its licence is retained.
 
-Learning-design references: course materials **SS03.6 Scenario-based Learning** and **SS04.2 5E Model**. Contextual reference: [Hong Kong Drainage Services Department — Flood Prevention Strategy](https://www.dsd.gov.hk/others/IRTS/en/fpwc.html).
+Learning-design references: course materials **SS03.6 Scenario-based Learning** and **SS04.2 5E Model**. Video content reference: [US EPA — About Green Infrastructure](https://www.epa.gov/green-infrastructure/about-green-infrastructure). Contextual reference: [Hong Kong Drainage Services Department — Flood Prevention Strategy](https://www.dsd.gov.hk/others/IRTS/en/fpwc.html).
 
 All cities, runoff profiles, costs and opening thresholds are fictional classroom settings. Stored water still requires later drainage. The model illustrates runoff, timing, storage and outlet constraints; it is not a real flood forecast or engineering design standard. Designs are not intended to be equally effective: some choices deliberately expose the consequences of treating a local improvement as a catchment-wide solution.
