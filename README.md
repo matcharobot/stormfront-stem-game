@@ -142,9 +142,9 @@ Knowledge feedback supports revision. Written-entry checks verify **completeness
 
 ## Teaching video and answer feedback
 
-**Why cities need drainage** is an original **42-second, 16:9 illustrated teaching video**, available from the title screen and prologue. It explains collecting and conveying runoff, slowing and storing water, protecting city life and recognizing system limits. It uses continuous animation, built-in English captions and a quiet synthesized ambient track. It is labelled as a teaching animation and uses the project's Recraft illustrations; it is not real flood footage.
+**Why cities need drainage** is an original **42-second, 16:9 illustrated teaching video**, available from the title screen and prologue. It explains collecting and conveying runoff, slowing and storing water, protecting city life and recognizing system limits. Six scenes use distinct visual explanations, including a street inlet, storage and a low/high river comparison. The spoken English matches the built-in captions. The video uses the project's Recraft illustrations and schematic overlays.
 
-The video plays only when the learner chooses. Its question—what could change between two storms?—connects the overview to the opening hypothesis. Rain becomes quieter during playback and returns afterward. [Open the MP4](https://matcharobot.github.io/stormfront-stem-game/drainage-cities.mp4).
+The video plays only when the learner chooses. Its question—what could change between two storms?—connects the overview to the opening hypothesis. Background rain pauses during playback and resumes afterward if enabled. [Open the MP4](https://matcharobot.github.io/stormfront-stem-game/drainage-cities.mp4).
 
 Correct responses play a short rising tone; incorrect responses play a quieter low descending tone. They accompany the two process-explanation questions, four knowledge questions and system-path selection. Written feedback remains visible, and **SFX** can be muted independently of **Rain**. Initial hypotheses, engineering trade-offs and open-ended writing are not given right/wrong tones.
 
@@ -161,7 +161,7 @@ The game uses SugarCube state and passage events, saved choices, interactive for
 
 ## Credits and boundaries
 
-Story, activities and teaching model were tailored to this project with AI assistance. **All 18 illustrations were generated and edited with Recraft**. Rain audio is synthesized in the browser; the video ambience and answer tones are generated for the project. The camera image is an illustration with teaching overlays, not measured flood footage. SugarCube is by Thomas Michael Edwards; its licence is retained.
+Story, activities and teaching model were tailored to this project with AI assistance. **All 18 illustrations were generated and edited with Recraft**. Rain and answer tones are synthesized for the game. Video narration uses the macOS Samantha English system voice. The camera image is an illustration with teaching overlays, not measured flood footage. SugarCube is by Thomas Michael Edwards; its licence is retained.
 
 Learning-design references: course materials **SS03.6 Scenario-based Learning** and **SS04.2 5E Model**. Video content reference: [US EPA — About Green Infrastructure](https://www.epa.gov/green-infrastructure/about-green-infrastructure). Contextual reference: [Hong Kong Drainage Services Department — Flood Prevention Strategy](https://www.dsd.gov.hk/others/IRTS/en/fpwc.html).
 
